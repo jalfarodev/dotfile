@@ -27,6 +27,8 @@
     autocomplete_method = "coc"
     filemanager = "nerdtree"
     filetree_direction = "left"
+    bootstrap_before = "myspacevim#before"
+    bootstrap_after = "myspacevim#after"
 
 # Enable autocomplete layer
 [[layers]]
@@ -43,10 +45,14 @@ default_height = 20
 name = 'git'
 
 [[layers]]
-name = 'fzf'
+name = 'denite'
 
 [[layers]]
 name = 'checkers'
 
+[[layers]]
+name = 'VersionControl'
+
 [[custom_plugins]]
 name = 'ryanoasis/vim-devicons'
+
